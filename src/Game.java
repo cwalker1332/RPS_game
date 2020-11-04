@@ -53,7 +53,6 @@ public class Game {
 
         // compare user and cpu response with each other to decide the winner.
 
-        // if user chooses rock
         switch (response) {
             case 1:
                 // call on rock class if user chooses rock

@@ -22,6 +22,8 @@ public class Rock {
     public int checkOutcome() {
         if(cpuAnswer.equals("scissors")){
             return 1;
+        } else if (cpuAnswer.equals("rock")){
+            return 2;
         } else {
             return 0;
         }

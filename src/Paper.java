@@ -22,6 +22,8 @@ public class Paper {
     public int checkOutcome() {
         if(cpuAnswer.equals("rock")){
             return 1;
+        } else if (cpuAnswer.equals("paper")){
+            return 2;
         } else {
             return 0;
         }

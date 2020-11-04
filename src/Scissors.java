@@ -22,6 +22,8 @@ public class Scissors {
     public int checkOutcome() {
         if(cpuAnswer.equals("paper")){
             return 1;
+        } else if (cpuAnswer.equals("scissors")){
+            return 2;
         } else {
             return 0;
         }
